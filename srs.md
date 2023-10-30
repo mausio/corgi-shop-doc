@@ -6,43 +6,56 @@ Das SRS Document beschreibt alle Spezifikationen im Rahmen des Projekts „Corgi
 
 ## Scope
 
-Folgende Funktionalitäten realisiert die App:
+Folgende Funktionalitäten sollen von der App realisiert werden:
+
 1.	Corgis
       - Corgis aus Back End fetchen und im Front End als Liste darstellen
-      - Einzelnen Corgi darstellen und Informationen darstellen
+      - Einzelnen Corgis darstellen und dessen Informationen einsehen
       - Corgis als Favorit speicherbar machen
-      - Corgi in den Einkaufskorb einchecken
+      - Corgis in den Einkaufskorb hinzufügen/löschen
 2.	Merch
+      - Merch aus Back-End fetchen und im Front-End als Liste darstellen
+      - Einzelne Items vom Merch darstellen und dessen Informationen einsehen
+      - Merch in den Einkaufskorb hinzufügen/löschen
 3.	Home / Gesamtüberblick
+      - Corgis anschauen
+      - Merch anschauen
+      - Eigenes Profil anschauen
 4.	Checkout
+      - Bearbeiten des Warenkorbs wie Items/Corgis löschen oder Stückzahl ändern
+      - Bezahlen der Artikel im Warenkorb
 5.	Profil
+      - Eigene Informationen anschauen
+      - Einloggen/Ausloggen
 6.	Admin
+      - Verwalten aller Items/Corgis dh. hinzufügen, löschen, ändern etc.
+      - User verwalten bzw. löschen
 
 ## Verwendete Tech-Stacks:
 
-- Backend:
-Java
-Spring Boot
-PostgresSQL (TablePlus)
+Backend:
+- Java
+- Spring Boot
+- PostgresSQL (TablePlus)
 
-- Frontend:
-Swift (UI)
-iOS Kits
-SwiftData
+Frontend:
+- Swift (UI)
+- iOS Kits
+- SwiftData
 
-- IDE:
-IntelliJ Ultimate
-Xcode
+IDE:
+- IntelliJ Ultimate
+- Xcode
 
-- Projektmanagement:
-Jira (Atlassian)
-Github Docs / Discussions
+Projektmanagement:
+- Jira (Atlassian)
+- Github Docs / Discussions
 
-- Deployment:
-Docker
+Deployment:
+- Docker
 
-- Testing:
-JUnit
+Testing:
+- JUnit
 
 ## GUI-Mock-Up (Profil/User)
 
