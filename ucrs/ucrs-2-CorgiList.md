@@ -9,6 +9,13 @@ Desweiteren kann der User auf einzelne Corgis klicken und wird auf die Corgi-Pag
 ### 1.1 Screenshot
 <img width="326" alt="Screenshot_2023-10-30_at_11 36 43" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/f8f03db9-143a-428a-b439-bd6680693d1c">
 
+### 1.2 Scope
+Diese Use-Case Realization Specification bezieht sich auf die CorgiList und ihre Interaktionen in der App. Sie hat Auswirkungen auf die Navigation und die Benutzererfahrung im Zusammenhang mit der CorgiList.
+
+### 1.3 Definitionen, Abkürzungen und Begriffe
+- CorgiList: Liste von Corgis im Corgi-Shop unter dem Reiter "Corgis"
+- ListView: Liste von Elementen in der App (iOS/SwiftUi spezifische Benennung)
+- CorgiDetail: Detailansicht eines einzelnen Corgis
 
 ### 2. Flow of Events
 Der Ablauf der Ereignisse im Zusammenhang mit der CorgiList ist wie folgt:
