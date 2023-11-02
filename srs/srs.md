@@ -49,23 +49,18 @@ Backend:
 - Java
 - Spring Boot
 - PostgresSQL (TablePlus)
-
 Frontend:
 - Swift (UI)
 - iOS Kits
 - SwiftData
-
 IDE:
 - IntelliJ Ultimate
 - Xcode
-
 Projektmanagement:
 - Jira (Atlassian)
 - Github Docs / Discussions
-
 Deployment:
 - Docker
-
 Testing:
 - JUnit
 
