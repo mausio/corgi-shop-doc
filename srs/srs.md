@@ -79,5 +79,5 @@ Der Bezahlvorgang selbst wird von den Payment Services über das Back-End verwal
 
 <img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sqd3.2.drawio.png">
 
-Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus dem der Datenbank holt und sie anzeigt.
-Es wird aktualisiert sobald weiteres vollständig implementiert wurde
+Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus der Datenbank zieht und anzeigt.
+Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
