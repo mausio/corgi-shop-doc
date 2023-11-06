@@ -8,6 +8,7 @@
 - [5. GUI-Mock-Up (Profil/User)](#4-gui-mock-up-profiluser)
 - [6. Use-Case-Diagramm](#5-use-case-diagramm)
 - [7. Sequenzdiagramm](#6-sequenzdiagramm)
+- [8. Aktivitätsdiagramm](#7-aktivitätsdiagramm)
 
 ## 1. Beschreibung des Dokuments
 
@@ -88,3 +89,9 @@ Der Bezahlvorgang selbst wird von den Payment Services über das Back-End verwal
 
 Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus der Datenbank zieht und anzeigt.
 Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
+
+## 8. Aktivitätsdiagramm
+
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/ad1.drawio.png">
+
+
