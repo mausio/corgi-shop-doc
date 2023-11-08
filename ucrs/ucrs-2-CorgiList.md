@@ -27,4 +27,4 @@ Der Ablauf der Ereignisse im Zusammenhang mit der CorgiList ist wie folgt:
 - User kann auf einzelne Corgis klicken und wird auf die CorgiDetail-Navigation weitergeleitet
 
 ### 3. Sequenzdiagramm
-[Hier wird das Sequenzdiagramm eingefügt um die Interaktionen zwischen dem User und der CorgiList zu veranschaulichen]
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sq_Corgi.png">

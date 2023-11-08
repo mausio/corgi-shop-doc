@@ -22,4 +22,6 @@ Der Ablauf der Ereignisse im Zusammenhang mit dem TabView ist wie folgt:
 - User kann auf Checkout klicken und landet auf der Checkout-Page
 
 ### 3. Sequenzdiagramm
-[Hier wird das Sequenzdiagramm eingefügt, um die Interaktionen zwischen dem User und dem TabView zu veranschaulichen]
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sq_Corgi.png">
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sq_Merch.png">
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sq_Checkout.png">

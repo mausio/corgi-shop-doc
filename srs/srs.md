@@ -1,10 +1,23 @@
 # Software Requirement Specifications (SRS)
 
-## Beschreibung
+# Inhaltsverzeichnis
+- [1. Beschreibung des Dokuments](#1-beschreibung-des-dokuments)
+- [2. Vision](#2-vision)
+- [3. Scope](#3-scope)
+- [4.Verwendete Tech-Stacks](#verwendete-tech-stacks)
+- [5. GUI-Mock-Up (Profil/User)](#4-gui-mock-up-profiluser)
+- [6. Use-Case-Diagramm](#5-use-case-diagramm)
+- [7. Sequenzdiagramm](#6-sequenzdiagramm)
+- [8. Aktivitätsdiagramm](#7-aktivitätsdiagramm)
+
+## 1. Beschreibung des Dokuments
 
 Das SRS Document beschreibt alle Spezifikationen im Rahmen des Projekts „Corgi-Shop“ und gibt einen Überblick über die Zukunft des Projekts, was die Features und die Begrenzungen inkludiert.
 
-## Scope
+## 2. Vision
+„Corgi Shop“ soll eine Mobile Applikation werden, die es Kunden ermöglichen soll Hunde der Rasse Corgi sowie Accessoires mit Corgi Motiven zu erwerben.
+
+## 3. Scope
 
 Folgende Funktionalitäten sollen von der App realisiert werden:
 
@@ -31,33 +44,28 @@ Folgende Funktionalitäten sollen von der App realisiert werden:
       - Verwalten aller Items/Corgis dh. hinzufügen, löschen, ändern etc.
       - User verwalten bzw. löschen
 
-## Verwendete Tech-Stacks:
+## 4. Verwendete Tech-Stacks:
 
 Backend:
 - Java
 - Spring Boot
 - PostgresSQL (TablePlus)
-
 Frontend:
 - Swift (UI)
 - iOS Kits
 - SwiftData
-
 IDE:
 - IntelliJ Ultimate
 - Xcode
-
 Projektmanagement:
 - Jira (Atlassian)
 - Github Docs / Discussions
-
 Deployment:
 - Docker
-
 Testing:
 - JUnit
 
-## GUI-Mock-Up (Profil/User)
+## 5. GUI-Mock-Up (Profil/User)
 
 <img width="326" alt="Screenshot_2023-10-30_at_11 36 38" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/4283b343-cbdc-442f-9b5c-ae40a891db27">
 <img width="326" alt="Screenshot_2023-10-30_at_11 36 43" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/f8f03db9-143a-428a-b439-bd6680693d1c">
@@ -65,7 +73,7 @@ Testing:
 Das GUI-Mock-Up stellt das zukünftige Graphical User Interface der App dar.
 Das erste Bild zeigt wie die Corgis im Katalog und das zweite wie die Seiten individueller Corgis in der App jeweils angezeigt werden sollen.
 
-## Use-Case-Diagramm
+## 6. Use-Case-Diagramm
 
 ![ucd1](https://github.com/mausio/corgi-shop-doc/assets/122524882/3a5d41ba-8358-4f5e-aacd-e3df6feb296a)
 
@@ -75,9 +83,15 @@ Kunden sollen die Möglichkeit haben, sich einzuloggen, Corgis oder Merchandise-
 Das Log-In sowie das Checkout und das Kaufen von Produkten wird zuerst über das Back-End verarbeitet und gegebenenfalls werden mit der Datenbank Daten ausgetauscht. 
 Der Bezahlvorgang selbst wird von den Payment Services über das Back-End verwaltet.
 
-## Sequenzdiagramm
+## 7. Sequenzdiagramm
 
-<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/1cf9d637-ea4e-4214-ad82-7a8d009f439a">
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sqd3.2.drawio.png">
 
-Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus dem der Datenbank holt und sie anzeigt.
-Es wird aktualisiert sobald weiteres vollständig implementiert wurde
+Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus der Datenbank zieht und anzeigt.
+Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
+
+## 8. Aktivitätsdiagramm
+
+<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/ad1.drawio.png">
+
+
