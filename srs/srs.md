@@ -98,6 +98,3 @@ Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
 
 ## 8. Aktivitätsdiagramm
 
-<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/ad1.drawio.png">
-
-
