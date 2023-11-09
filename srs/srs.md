@@ -90,7 +90,8 @@ Der Bezahlvorgang selbst wird von den Payment Services über das Back-End verwal
 
 ## 7. Sequenzdiagramm
 
-<img width="524" alt="Bildschirmfoto_2023-10-30_um_12 28 48" src="../images/sqd3.2.drawio.png">
+![sqd_4 drawio](https://github.com/mausio/corgi-shop-doc/assets/122524882/e48f0105-1bd5-4912-8f99-61b5dcc6eb15)
+
 
 Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus der Datenbank zieht und anzeigt.
 Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
