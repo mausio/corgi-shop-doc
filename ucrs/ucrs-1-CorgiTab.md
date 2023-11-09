@@ -16,12 +16,8 @@ Der Scope ist wie folgt:
 - Auch gibt es hier die Möglichkeit auf den Cart um den Corgi in den Cart zu befördern
 - Der Stern ermöglicht es den Corgi sich zu merken
 
-### 1.3 Definitionen, Abkürzungen und Begriffe
-- 
-
-
 ### 2. Flow of Events
-Flow of Events beschreibt den Verlauf zwischen Interaktion der*des User und den technisches Hintergrundprozessen.
+Flow of Events beschreibt den Verlauf zwischen Interaktion der*des User und den technisches Hintergrundprozessen auf dem CorgiTab
 
 #### 2.1 Corgi-List
 Beim Click auf den Tab "Corgis" wird der Corgi-Tab geladen und es werden aus dem Back End das entsprechende Array an Objekten gefetched.
