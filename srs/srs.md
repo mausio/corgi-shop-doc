@@ -98,3 +98,18 @@ Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
 
 ## 8. Aktivitätsdiagramm
 
+### User logs
+
+<img width="216" alt="122Bildschirmfoto_2023-11-09_um_11 49 45" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/8b342eee-2896-40f4-be66-c79c16554441">
+
+### Get corgis from backend
+
+<img width="252" alt="121" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/8f0f5fec-86a8-4c91-aeae-0d8192fcf518">
+
+### Get cart from backend
+
+<img width="171" alt="12233Bildschirmfoto_2023-11-09_um_11 48 02" src="https://github.com/mausio/corgi-shop-doc/assets/122524882/5947734b-c099-4c3f-9132-9f3a65d9cc05">
+
+
+
+
