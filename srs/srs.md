@@ -4,11 +4,11 @@
 - [1. Beschreibung des Dokuments](#1-beschreibung-des-dokuments)
 - [2. Vision](#2-vision)
 - [3. Scope](#3-scope)
-- [4.Verwendete Tech-Stacks](#verwendete-tech-stacks)
-- [5. GUI-Mock-Up (Profil/User)](#4-gui-mock-up-profiluser)
-- [6. Use-Case-Diagramm](#5-use-case-diagramm)
-- [7. Sequenzdiagramm](#6-sequenzdiagramm)
-- [8. Aktivitätsdiagramm](#7-aktivitätsdiagramm)
+- [4.Verwendete Tech-Stacks](#4-verwendete-tech-stacks)
+- [5. GUI-Mock-Up (Profil/User)](#5-gui-mock-up-profiluser)
+- [6. Use-Case-Diagramm](#6-use-case-diagramm)
+- [7. Sequenzdiagramm](#7-sequenzdiagramm)
+- [8. Aktivitätsdiagramm](#8-aktivitätsdiagramm)
 
 ## 1. Beschreibung des Dokuments
 
@@ -50,18 +50,23 @@ Backend:
 - Java
 - Spring Boot
 - PostgresSQL (TablePlus)
+
 Frontend:
 - Swift (UI)
 - iOS Kits
 - SwiftData
+
 IDE:
 - IntelliJ Ultimate
 - Xcode
+
 Projektmanagement:
 - Jira (Atlassian)
 - Github Docs / Discussions
+
 Deployment:
 - Docker
+
 Testing:
 - JUnit
 
