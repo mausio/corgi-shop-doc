@@ -84,91 +84,91 @@ Das Projektteam besteht aus folgenden Mitgliedern:
   <tbody>
     <tr>
       <td>Corgis BackEnd (Sprint)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Corgi Endpunkte; Anbindung von Datenbank; Testing mit Postman (End-To-End)</td>
+      <td>20</td>
+      <td>0</td>
+      <td>5</td>
+      <td>25</td>
     </tr>
     <tr>
       <td>Corgis FrontEnd (Sprint)</td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>iOS App; Swift und SwiftData; Anbindung der API (REST) und Statemangement; Styling</td>
+      <td>2</td>
+      <td>0</td>
       <td>60</td>
-      <td></td>
+      <td>62</td>
     </tr>
     <tr>
       <td>Merch BackEnd (Sprint)</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Merch Endpunkte; Speicherung in Datenbank; Docker</td>
+      <td>10</td>
+      <td>15</td>
+      <td>2</td>
+      <td>27</td>
     </tr>
     <tr>
       <td>Sprintplanung</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Planung, Einträge und Workflow verfolgen auf Jira</td>
+      <td>6</td>
+      <td>6</td>
+      <td>6</td>
+      <td>18</td>
     </tr>
     <tr>
       <td>SRS</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Projektplanung und Festsetzung der Vision und Konkretisierung der Manifestierung der Applikation</td>
+      <td>5</td>
+      <td>10</td>
+      <td>2</td>
+      <td>17</td>
     </tr>
     <tr>
       <td>Klassendiagramme</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Erfassen, analysieren und visualisieren der Klassen, der Relationen und das Versionieren</td>
+      <td>10</td>
+      <td>0</td>
+      <td>2</td>
+      <td>12</td>
     </tr>
     <tr>
       <td>Use Case / User Story</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Nutzerverhalten und Bedienbarkeit der App durch Definition der Vorgänge</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>10</td>
     </tr>
     <tr>
       <td>ASR</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Utility Tree</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Diskussion und Festlegung der Architektur und -entscheidung</td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
     </tr>
     <tr>
       <td>RUP SAD</td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Dokumentation für bisherige Architektur und spezifische Umsetzung</td>
+      <td>5</td>
+      <td>0</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Planung, Kommunikation</td>
+      <td>Zeit, die in Planung, Kommunikation, Koordination und Review gingen</td>
+      <td>0</td>
+      <td>0</td>
+      <td>10</td>
+      <td>10</td>
     </tr>
     <tr>
       <td>Zusammenfassung</td>
       <td>Stunden pro Person</td>
-      <td>= </td>
-      <td>=</td>
-      <td>=</td>
-      <td>-</td>
+      <td>= 58</td>
+      <td>= 41</td>
+      <td>= 87</td>
+      <td>= 186</td>
     </tr>
   </tbody>
 </table>
@@ -183,6 +183,7 @@ Im BackEnd kam noch Code Review hinzu und Feedback durch die entstehende Nutzung
 Versionierung und Organisation der Dokumentation, sowie die Kommunikation und Terminplanung habe ich ebenfalls übernommen.
 
 ####  Mael Dossoh 
+
 
 #### Niklas Krauth
 
