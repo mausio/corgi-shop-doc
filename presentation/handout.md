@@ -223,3 +223,6 @@ Genutzte Tech Stacks:
 
 - Markdown Language
 - Github Discussions
+
+## Techniken zur Projektverwaltung
+- Jira
