@@ -182,8 +182,9 @@ Ich habe mich ausschließlich um das FrontEnd gekümmert, die Aufgaben verteilt,
 Im BackEnd kam noch Code Review hinzu und Feedback durch die entstehende Nutzung im FrontEnd.
 Versionierung und Organisation der Dokumentation, sowie die Kommunikation und Terminplanung habe ich ebenfalls übernommen.
 
-####  Mael Dossoh 
-
+####  Mael Dossoh
+Hauptsächlich habe ich mich um die Dokumentation des Projekts gekümmert sowie die Erstellung und Aktualisierung das SRS und das ASR.
+Des weiteren habe ich den Merch-Endpunkt der Datenbank angelegt und mich die Verbindung zum Frontend gekümmert.
 
 #### Niklas Krauth
 
