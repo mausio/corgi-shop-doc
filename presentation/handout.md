@@ -187,6 +187,7 @@ Hauptsächlich habe ich mich um die Dokumentation des Projekts gekümmert sowie 
 Des weiteren habe ich den Merch-Endpunkt der Datenbank angelegt und mich die Verbindung zum Frontend gekümmert.
 
 #### Niklas Krauth
+Größtenteils habe ich mich um das BackEnd gekümmert welches ich erstellt habe sowie die grundlegende Architektur und die Corgi-Endpunkte dort. Auch habe ich mich um die Datenbank gekümmert. Dazu wurden auch die meisten Diagramme von mir erstellt.
 
 ## Overall Use Case Diagramm
 ![ucd1](https://github.com/mausio/corgi-shop-doc/assets/122524882/3a5d41ba-8358-4f5e-aacd-e3df6feb296a)
