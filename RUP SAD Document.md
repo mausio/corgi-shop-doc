@@ -22,9 +22,16 @@ Insgesamt wird die Architektur darauf ausgerichtet, eine effiziente und benutzer
 # 4. Anwendungsfall-Ansicht
 ## 4.1 Realisierungen von Anwendungsfällen
 
+Zwei der Anwendungsfälle sind in unseren UCRS beschrieben:
+
+[Corgi-Tabelle](https://github.com/mausio/corgi-shop-doc/blob/main/ucrs/ucrs-1-CorgiTab.md)
+[User-Login](https://github.com/mausio/corgi-shop-doc/blob/main/ucrs/ucrs-2-User-Login.md)
+
 # 5. Logische Ansicht
-## 5.1 Überblick
-## 5.2 Architektonisch signifikante Designpakete
+
+Das Klassendiagramm visualisiert alle Klassen sowie dessen Attribute, Methoden und deren Relationen im BackEnd.
+
+![Klassendiagramm](https://github.com/mausio/corgi-shop-doc/blob/main/classdiagram/cd2.drawio.png)
 
 # 6. Prozessansicht
 
