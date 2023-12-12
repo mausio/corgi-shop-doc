@@ -1,4 +1,4 @@
-# Software Requirement Specifications (SRS)
+# Software Requirements Specifications (SRS)
 
 # Inhaltsverzeichnis
 - [1. Beschreibung des Dokuments](#1-beschreibung-des-dokuments)
