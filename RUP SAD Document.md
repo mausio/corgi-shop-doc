@@ -1,13 +1,20 @@
 # Software Architecture Document #
 
 # 1. Einleitung
-## 1.1 Zweck
-## 1.2 Umfang
-## 1.3 Definitionen, Akronyme und Abkürzungen
-## 1.4 Referenzen
-## 1.5 Überblick
+
+Die Corgi-Shop-App wurde entwickelt, um eine effiziente Plattform für den Verkauf von Corgis und exklusivem Corti-Merchandise zu bieten. Technologisch fortgeschritten, verfolgt die Anwendung das Ziel, hochwertige Produkte effizient zu verkaufen und gleichzeitig ein reibungsloses Einkaufserlebnis für die Benutzer zu gewährleisten.
+
+Die technische Umsetzung umfasst fortschrittliche E-Commerce-Technologien, die eine nahtlose Navigation und Interaktion ermöglichen. Der Fokus liegt auf einer agilen Backend-Architektur, die eine schnelle Verarbeitung von Transaktionen und die effiziente Verwaltung von Produktdaten gewährleistet.
+
+Durch den Einsatz modernster Technologien für Datenmanagement und E-Commerce strebt die Corgi-Shop-App nicht nur an, hochwertige Produkte anzubieten, sondern auch eine robuste und sichere Plattform für den Verkauf von Corgis und Corti-Merchandise bereitzustellen.
 
 # 2. Architektonische Darstellung
+
+Die Corgi-Shop-App ist durch eine durchdachte Architektur geprägt, die auf Swift im Frontend, Java SpringBoot im Backend und PostgreSQL als Datenbank setzt. Swift sorgt für eine optimale Benutzererfahrung auf iPhones, während SpringBoot eine skalierbare und robuste Serverarchitektur gewährleistet. Die PostgreSQL-Datenbank speichert effizient Produktdaten, Benutzerinformationen und Bestellungen.
+
+Die Kommunikation zwischen den Komponenten erfolgt über RESTful APIs, die eine klare Trennung der Verantwortlichkeiten ermöglichen. Eine zusätzliche Sicherheitsschicht schützt Benutzerdaten durch bewährte Mechanismen wie Authentifizierung und Autorisierung.
+
+![AD](https://github.com/mausio/corgi-shop-doc/assets/115564658/ec2c3c28-82be-4f5b-ac38-e22ca869035f)
 
 # 3. Architektonische Ziele und Einschränkungen
 
@@ -20,7 +27,6 @@ Die Anwendung strebt eine akzeptable Leistung an, und obwohl Skalierbarkeit nich
 Insgesamt wird die Architektur darauf ausgerichtet, eine effiziente und benutzerfreundliche Plattform für den exklusiven Kauf von Corgi-Produkten auf mobilen Apple-Geräten zu bieten.
 
 # 4. Anwendungsfall-Ansicht
-## 4.1 Realisierungen von Anwendungsfällen
 
 Zwei der Anwendungsfälle sind in unseren UCRS beschrieben:
 
@@ -55,6 +61,10 @@ Während das Frontend nur die GUI-Komponente besitzt und Services für die Logik
 # 9. Datenansicht (optional)
 
 # 10. Größe und Leistung
+
+Die Datenbank und das Backend müssen jederzeit verfügbar sein. Die Antwortzeiten müssen in einem Bereich liegen, um die Benutzerinteraktion nicht zu beeinträchtigen. Beide müssen für zukünftige Funktionen erweiterbar sein. Die Leistung des Backends kann die Gesamtantwortzeiten am stärksten beeinflussen, daher sind Optimierungen hier entscheidend.
+
+Das Frontend sollte ebenfalls erweiterbar sein, um die Funktionen des Backends zu spiegeln. Die Leistung muss sehr gut sein, da der Benutzer direkt damit interagiert.
 
 # 11. Qualität
 
