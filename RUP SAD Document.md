@@ -58,7 +58,11 @@ Während das Frontend nur die GUI-Komponente besitzt und Services für die Logik
 
 ![KD_1 drawio](https://github.com/mausio/corgi-shop-doc/assets/115564658/7a6c933a-a0aa-4574-937f-e431d426810f)
 
-# 9. Datenansicht (optional)
+# 9. Datenansicht
+
+Die Datenbank ist wie folgt konstruiert
+
+![ERM drawio](https://github.com/mausio/corgi-shop-doc/assets/115564658/493e9772-610d-43de-940e-884cc111d4b0)
 
 # 10. Größe und Leistung
 
