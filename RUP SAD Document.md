@@ -46,7 +46,10 @@ Das Klassendiagramm visualisiert alle Klassen sowie dessen Attribute, Methoden u
 Das Sequenzdiagramm zeigt aktuell wie die App die Corgis aus der Datenbank zieht und anzeigt.
 Es wird aktualisiert sobald weiteres vollständig implementiert wurde.
 
-# 7. Bereitstellungsansicht
+# 7. Bereitstellungsansicht 
+Da wir die Deployment-Strategie aktuell noch nicht festgesetzt haben, können wir aktuell nur sagen dass die Anwendung später von einem physischem Server gehostet werden soll.
+
+Sobald weitere Informationen verfügbar sind teilen wir diese mit.
 
 # 8. Implementierungsansicht
 
