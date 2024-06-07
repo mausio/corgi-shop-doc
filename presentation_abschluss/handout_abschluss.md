@@ -4,8 +4,7 @@ Dieses Handout enthält die wichtigsten Informationen zur Präsentation "Corgi S
 
 - Projektnamen
 - Aufwändsstatistiken
-- Projektteam und Arbeitsteilung
-- Demo Highlights (Beschreibung + Screenshots)
+- Highlights der Demo
 - Architektur
 - Software Tools/Plattform/Technik/Libraries
 - Datenbank und Design
@@ -39,24 +38,24 @@ Das Projektteam besteht aus folgenden Mitgliedern:
   <tbody>
     <tr>
       <td>Mael Dossoh</td>
-      <td>19</td>
-      <td>2</td>
+      <td>26</td>
+      <td>11</td>
       <td>0</td>
-      <td>21</td>
+      <td>37</td>
     </tr>
     <tr>
       <td>Niklas Krauth</td>
-      <td>6</td>
-      <td>10</td>
+      <td>17</td>
+      <td>22</td>
       <td>0</td>
-      <td>16</td>
+      <td>39</td>
     </tr> 
     <tr>
       <td>Robin Schwenzfeier</td>
-      <td>9</td>
+      <td>14</td>
       <td>3</td>
-      <td>5</td>
       <td>17</td>
+      <td>34</td>
     </tr>
   </tbody>
 </table>
@@ -67,7 +66,7 @@ Das Projektteam besteht aus folgenden Mitgliedern:
   <thead>
     <tr>
       <th>Name</th>
-      <th>Beschreibung </th>
+      <th>Beschreibung</th>
       <th>Niklas</th>
       <th>Mael</th>
       <th>Robin</th>
@@ -76,36 +75,44 @@ Das Projektteam besteht aus folgenden Mitgliedern:
   </thead>
   <tbody>
     <tr>
-      <td>Corgis BackEnd (Sprint)</td>
-      <td>Corgi Endpunkte; Anbindung von Datenbank; Testing mit Postman (End-To-End)</td>
-      <td>20</td>
-      <td>0</td>
-      <td>5</td>
+      <td>Corgis Front-/BackEnd (Sprint)</td>
+      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
       <td>25</td>
+      <td>5</td>
+      <td>65</td>
+      <td>95</td>
     </tr>
     <tr>
-      <td>Corgis FrontEnd (Sprint)</td>
-      <td>iOS App; Swift und SwiftData; Anbindung der API (REST) und Statemangement; Styling</td>
-      <td>2</td>
-      <td>0</td>
-      <td>60</td>
-      <td>62</td>
-    </tr>
-    <tr>
-      <td>Merch BackEnd (Sprint)</td>
-      <td>Merch Endpunkte; Speicherung in Datenbank; Docker</td>
-      <td>10</td>
+      <td>Merch Front-/BackEnd (Sprint)</td>
+      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
       <td>15</td>
-      <td>2</td>
-      <td>27</td>
+      <td>18</td>
+      <td>22</td>
+      <td>45</td>
+    </tr>
+     <tr>
+      <td>User Front-/BackEnd (Sprint)</td>
+<td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>13</td>
+      <td>8</td>
+      <td>8</td>
+      <td>29</td>
+    </tr>
+     <tr>
+      <td>Cart Front-/BackEnd (Sprint)</td>
+      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>5</td>
+      <td>5</td>
+      <td>8</td>
+      <td>18</td>
     </tr>
     <tr>
       <td>Sprintplanung</td>
       <td>Planung, Einträge und Workflow verfolgen auf Jira</td>
-      <td>6</td>
-      <td>6</td>
-      <td>6</td>
-      <td>18</td>
+      <td>8</td>
+      <td>8</td>
+      <td>8</td>
+      <td>24</td>
     </tr>
     <tr>
       <td>SRS</td>
@@ -118,13 +125,13 @@ Das Projektteam besteht aus folgenden Mitgliedern:
     <tr>
       <td>Klassendiagramme</td>
       <td>Erfassen, analysieren und visualisieren der Klassen, der Relationen und das Versionieren</td>
-      <td>10</td>
+      <td>12</td>
       <td>0</td>
       <td>2</td>
-      <td>12</td>
+      <td>14</td>
     </tr>
     <tr>
-      <td>Use Case / User Story</td>
+      <td>Use Case/User Story</td>
       <td>Nutzerverhalten und Bedienbarkeit der App durch Definition der Vorgänge</td>
       <td>0</td>
       <td>5</td>
@@ -148,12 +155,28 @@ Das Projektteam besteht aus folgenden Mitgliedern:
       <td>5</td>
     </tr>
     <tr>
+      <td>RMMM</td>
+      <td>Erfassung der Risiken, bewältigungstrategien und Erstellung der Visualisierungen/td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>RMMM</td>
+      <td>Erfassung der Risiken, bewältigungstrategien und Erstellung der Visualisierungen/td>
+      <td>0</td>
+      <td>5</td>
+      <td>0</td>
+      <td>5</td>
+    </tr
+    <tr>
       <td>Planung, Kommunikation</td>
       <td>Zeit, die in Planung, Kommunikation, Koordination und Review gingen</td>
-      <td>0</td>
-      <td>0</td>
-      <td>10</td>
-      <td>10</td>
+      <td>3</td>
+      <td>3</td>
+      <td>15</td>
+      <td>21</td>
     </tr>
     <tr>
       <td>Zusammenfassung</td>
