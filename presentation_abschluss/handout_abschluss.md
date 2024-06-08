@@ -230,9 +230,8 @@ Auußerden habe ich die Merch- und Cart-Endpunkte der Datenbank angelegt und mic
 Größtenteils habe ich mich um das BackEnd gekümmert welches ich erstellt habe sowie die grundlegende Architektur und die Corgi-Endpunkte dort. 
 Auch habe ich mich um die Datenbank gekümmert. Dazu wurden auch die meisten Diagramme von mir erstellt.
 
-## Architektur
-Das [ASR (https://github.com/mausio/corgi-shop-doc/blob/main/ASR%20Document.md)](https://github.com/mausio/corgi-shop-doc/blob/main/ASR%20Document.md) geht ausführlicher auf die Architektur ein.
-Jedoch, im Kurzen, ist die Architektur wie folgt aufgebaut:
+## Architektur - [Zum Blogeintrag](https://github.com/mausio/corgi-shop-doc/discussions/4)
+Das Blogbeitrag geht ausführlicher auf die Architektur ein, jedoch, im Kurzen, ist die Architektur wie folgt aufgebaut:
 - FrontEnd: Swift, SwiftUI und SwiftData bilden den View und Teile vom Controller (Actions, die dispatched werden) und beziehen Daten bei Bedarf vom BackEnd.
 - BackEnd: Spring Boot, Java und MySQL bilden das Model und den Controller und stellen die Daten für das FrontEnd bereit.
 
@@ -262,7 +261,7 @@ Genutzte Tech Stacks:
 - Git
 - Github
 
-## Datenbank und Design
+## Datenbank und Design - [Zum Blogeintrag](https://github.com/mausio/corgi-shop-doc/discussions/6)
 
 ### Struktur
 Die Datenbank für "Corgi Shop" wurde mit MySQL implementiert. Die Haupttabellen umfassen:
@@ -281,7 +280,7 @@ Ein Benutzer kann mehrere Bestellungen haben.
 Ein Produkt kann in mehreren Bestellungen enthalten sein.
 Ein Benutzer kann mehrere Produkte in seinem Warenkorb haben.
 
-## Testing
+## Testing - Zu den Blockeinträgen: [FrontEnd-Testing](https://github.com/mausio/corgi-shop-doc/discussions/14), [BackEnd-Testing](https://github.com/mausio/corgi-shop-doc/discussions/15)
 
 ### Unit Testing
 Für das Unit Testing wurde JUnit verwendet. Alle kritischen Funktionalitäten im Backend wurden durch Unit Tests abgedeckt, um sicherzustellen, dass jede einzelne Komponente wie erwartet funktioniert.
@@ -292,7 +291,7 @@ Integrationstests wurden durchgeführt, um sicherzustellen, dass verschiedene Be
 ### End-to-End Testing
 End-to-End-Tests wurden mit Postman durchgeführt, um den gesamten Workflow vom Frontend bis zum Backend zu überprüfen. Diese Tests stellten sicher, dass Benutzeraktionen ordnungsgemäß verarbeitet und in der Datenbank korrekt gespeichert wurden.
 
-## Metriken
+## Metriken - [Zum Blogeintrag](https://github.com/mausio/corgi-shop-doc/discussions/16)
 
 ### Code Coverage
 Die Code Coverage wurde mithilfe von JaCoCo gemessen, um sicherzustellen, dass mindestens 80% des Codes durch Tests abgedeckt sind.
@@ -304,7 +303,7 @@ Durchschnittliche Antwortzeit: Zeit, die das System benötigt, um auf eine Anfra
 Durchsatz: Anzahl der Anfragen, die das System pro Sekunde verarbeiten kann.
 Fehlerrate: Prozentsatz der fehlgeschlagenen Anfragen im Vergleich zur Gesamtzahl der Anfragen.
 
-## CI/CD
+## CI/CD - [Zum Blogeintrag](https://github.com/mausio/corgi-shop-doc/discussions/18)
 
 ### Continuous Integration (CI)
 Die Continuous Integration wurde mit GitHub Actions implementiert. Bei jedem Pull Request werden automatisch Build- und Testprozesse gestartet. Dies gewährleistet, dass neue Änderungen keine bestehenden Funktionalitäten brechen.
