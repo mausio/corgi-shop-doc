@@ -214,7 +214,7 @@ Das Projektteam besteht aus folgenden Mitgliedern:
 </table>
 
 
-### Hauptbeiträge von jedem Teammitglied (in eigenen Worten)
+## Hauptbeiträge jedes Teammitglieds (in eigenen Worten)
 Hier werden in wenigen eigenen Worten von den Teammitgliedern die Hauptbeiträge selbst beschrieben.
 
 #### Robin Schwenzfeier
