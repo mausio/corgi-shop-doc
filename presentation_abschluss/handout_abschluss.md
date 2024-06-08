@@ -1,28 +1,28 @@
 # Handout zur Präsentation "Corgi Shop"
 
-Dieses Handout enthält die wichtigsten Informationen zur Präsentation "Corgi Shop". Dazu gehören folgende Informationen:
+Dieses Handout enthält die wichtigsten Informationen für die Präsentation "Corgi Shop". Dazu gehören folgende Informationen:
 
-- Projektnamen
-- Aufwändsstatistiken
+- Projektname
+- Aufwändsstatistik
 - Highlights der Demo
 - Architektur
-- Software Tools/Plattform/Technik/Libraries
+- Software-Tools/Plattform/Technologie/Bibliotheken
 - Datenbank und Design
-- Testing
+- Testen
 - Metriken
 - CI/CD
 
-## Projektnamen
+## Projektname
 
-Der gewählte Projektnamen lautet "Corgi Shop".
+Als Projektname wurde "Corgi Shop" gewählt.
 
-## Aufwändsstatistiken
+## Aufwändsstatistik
 
 Das Projektteam besteht aus folgenden Mitgliedern:
 
-- Mael Dossoh: BackEnd, Testing, CI/CD, Dokumentation
-- Niklas Krauth: BackEnd, Database, Migration
-- Robin Schwenzfeier: FrontEnd, Teamleader
+- Mael Dossoh: BackEnd, Testen, CI/CD, Dokumentation
+- Niklas Krauth: BackEnd, Datenbank, Migration
+- Robin Schwenzfeier: FrontEnd, Teamleiter
 
 ### Commits
 <table>
@@ -32,7 +32,7 @@ Das Projektteam besteht aus folgenden Mitgliedern:
       <th>Doku</th>
       <th>BackEnd</th>
       <th>FrontEnd</th>
-      <th>Gesamt Anzahl Commits</th>
+      <th>Gesamtzahl Commits</th>
     </tr>
   </thead>
   <tbody>
@@ -76,7 +76,7 @@ Das Projektteam besteht aus folgenden Mitgliedern:
   <tbody>
     <tr>
       <td>Corgis Front-/BackEnd (Sprint)</td>
-      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>iOS App; Swift und SwiftData; API Anbindung (REST) und Statemangement; Styling/Endpoints; Datenbankanbindung; End-to-End Testing (Postman)</td>
       <td>25</td>
       <td>5</td>
       <td>65</td>
@@ -84,30 +84,30 @@ Das Projektteam besteht aus folgenden Mitgliedern:
     </tr>
     <tr>
       <td>Merch Front-/BackEnd (Sprint)</td>
-      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>iOS App; Swift und SwiftData; API Anbindung (REST) und Statemangement; Styling/Endpoints; Datenbankanbindung; End-to-End Testing (Postman)</td>
       <td>15</td>
       <td>18</td>
-      <td>22</td>
-      <td>45</td>
+      <td>5</td>
+      <td>38</td>
     </tr>
      <tr>
       <td>User Front-/BackEnd (Sprint)</td>
-<td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>iOS App; Swift und SwiftData; API Anbindung (REST) und Statemangement; Styling/Endpoints; Datenbankanbindung; End-to-End Testing (Postman)</td>
       <td>13</td>
-      <td>8</td>
-      <td>8</td>
-      <td>29</td>
+      <td>9</td>
+      <td>4</td>
+      <td>26</td>
     </tr>
      <tr>
       <td>Cart Front-/BackEnd (Sprint)</td>
-      <td>iOS App; Swift und SwiftData; API-Anbindung (REST) und Statemangement; Styling/ Endpunkte; Datenbank-Anbindung; End-To-End Testing (Postman)</td>
+      <td>iOS App; Swift und SwiftData; API Anbindung (REST) und Statemangement; Styling/Endpoints; Datenbankanbindung; End-to-End Testing (Postman)</td>
       <td>5</td>
       <td>5</td>
-      <td>8</td>
-      <td>18</td>
+      <td>3</td>
+      <td>13</td>
     </tr>
     <tr>
-      <td>Sprintplanung</td>
+      <td>Sprint Planung (Dokumentation)</td>
       <td>Planung, Einträge und Workflow verfolgen auf Jira</td>
       <td>8</td>
       <td>8</td>
@@ -115,76 +115,100 @@ Das Projektteam besteht aus folgenden Mitgliedern:
       <td>24</td>
     </tr>
     <tr>
-      <td>SRS</td>
-      <td>Projektplanung und Festsetzung der Vision und Konkretisierung der Manifestierung der Applikation</td>
+      <td>SRS (Dokumentation)</td>
+      <td>Projektplanung und Festsetzung der Vision und Konkretisierung der Umsetzung der Applikation</td>
       <td>5</td>
       <td>10</td>
       <td>2</td>
       <td>17</td>
     </tr>
     <tr>
-      <td>Klassendiagramme</td>
-      <td>Erfassen, analysieren und visualisieren der Klassen, der Relationen und das Versionieren</td>
+      <td>Klassendiagramme (Dokumentation)</td>
+      <td>Erfassen, Analyse und Visualisierung der Klassen, der Beziehungen und Versionierung</td>
       <td>12</td>
       <td>0</td>
       <td>2</td>
       <td>14</td>
     </tr>
     <tr>
-      <td>Use Case/User Story</td>
-      <td>Nutzerverhalten und Bedienbarkeit der App durch Definition der Vorgänge</td>
+      <td>Use Case/User Story (Dokumentation)</td>
+      <td>Nutzerverhalten und Bedienbarkeit der App durch Definition der Abläufe</td>
       <td>0</td>
       <td>5</td>
       <td>5</td>
       <td>10</td>
     </tr>
     <tr>
-      <td>ASR</td>
-      <td>Diskussion und Festlegung der Architektur und -entscheidung</td>
+      <td>ASR (Dokumentation)</td>
+      <td>Diskussion und Festlegung der Architektur und Entscheidung</td>
       <td>0</td>
       <td>5</td>
       <td>0</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>RUP SAD</td>
-      <td>Dokumentation für bisherige Architektur und spezifische Umsetzung</td>
+      <td>RUP SAD (Dokumentation)</td>
+      <td>Dokumentation für bestehende Architektur und spezifische Implementierung</td>
       <td>5</td>
       <td>0</td>
       <td>0</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>RMMM</td>
-      <td>Erfassung der Risiken, bewältigungstrategien und Erstellung der Visualisierungen/td>
+      <td>RMMM (Dokumentation)</td>
+      <td>Erfassung von Risiken, Bewältigungstrategien und Erstellung von Visualisierungen/td>
       <td>0</td>
       <td>5</td>
       <td>0</td>
       <td>5</td>
     </tr>
     <tr>
-      <td>RMMM</td>
-      <td>Erfassung der Risiken, bewältigungstrategien und Erstellung der Visualisierungen/td>
+      <td>Clean Code(Dokumentation)</td>
+      <td>Zusammenstellung der verwendeten Clean Code Techniken</td>
+      <td>2</td>
       <td>0</td>
-      <td>5</td>
       <td>0</td>
-      <td>5</td>
-    </tr
+      <td>2</td>
+    </tr>
     <tr>
-      <td>Planung, Kommunikation</td>
-      <td>Zeit, die in Planung, Kommunikation, Koordination und Review gingen</td>
-      <td>3</td>
-      <td>3</td>
-      <td>15</td>
+      <td>Testen Front-/BackEnd (Sprint & Dokumentation)</td>
+      <td>Durchführung und Dokumentation von Front-/BackEnd-Tests </td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>CI/CD (Sprint & Dokumentation)</td>
+      <td>Implementierung sowie Dokumentation einer Pull Request CI/CD Pipeline </td>
+      <td>0</td>
+      <td>8</td>
+      <td>0</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Presentationen & Handouts (Dokumentation)</td>
+      <td>Erstellen der beiden Dokumenten für das jeweilige Semester</td>
+      <td>0</td>
+      <td>6</td>
+      <td>6</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>Planung, Kommunikation(Dokumentation)</td>
+      <td>Zeitaufwand für Planung, Kommunikation, Koordination</td>
+      <td>4</td>
+      <td>4</td>
+      <td>13</td>
       <td>21</td>
     </tr>
     <tr>
       <td>Zusammenfassung</td>
       <td>Stunden pro Person</td>
-      <td>= 58</td>
-      <td>= 41</td>
-      <td>= 87</td>
-      <td>= 186</td>
+      <td>= 99</td>
+      <td>= 93</td>
+      <td>= 120</td>
+      <td>= 312</td>
     </tr>
   </tbody>
 </table>
@@ -199,11 +223,12 @@ Im BackEnd kam noch Code Review hinzu und Feedback durch die entstehende Nutzung
 Versionierung und Organisation der Dokumentation, sowie die Kommunikation und Terminplanung habe ich ebenfalls übernommen.
 
 ####  Mael Dossoh
-Hauptsächlich habe ich mich um die Dokumentation des Projekts gekümmert sowie die Erstellung und Aktualisierung das SRS und das ASR.
-Des weiteren habe ich den Merch-Endpunkt der Datenbank angelegt und mich die Verbindung zum Frontend gekümmert.
+Hauptsächlich habe ich mich um die Dokumentation des Projekts gekümmert, einschließlich der Erstellung des SRS, ASR und RMMM.
+Auußerden habe ich die Merch- und Cart-Endpunkte der Datenbank angelegt und mich die Verbindung zum Frontend sowie das Testing und CI/CD gekümmert.
 
 #### Niklas Krauth
-Größtenteils habe ich mich um das BackEnd gekümmert welches ich erstellt habe sowie die grundlegende Architektur und die Corgi-Endpunkte dort. Auch habe ich mich um die Datenbank gekümmert. Dazu wurden auch die meisten Diagramme von mir erstellt.
+Größtenteils habe ich mich um das BackEnd gekümmert welches ich erstellt habe sowie die grundlegende Architektur und die Corgi-Endpunkte dort. 
+Auch habe ich mich um die Datenbank gekümmert. Dazu wurden auch die meisten Diagramme von mir erstellt.
 
 ## Architektur
 Das [ASR (https://github.com/mausio/corgi-shop-doc/blob/main/ASR%20Document.md)](https://github.com/mausio/corgi-shop-doc/blob/main/ASR%20Document.md) geht ausführlicher auf die Architektur ein.
@@ -211,19 +236,21 @@ Jedoch, im Kurzen, ist die Architektur wie folgt aufgebaut:
 - FrontEnd: Swift, SwiftUI und SwiftData bilden den View und Teile vom Controller (Actions, die dispatched werden) und beziehen Daten bei Bedarf vom BackEnd.
 - BackEnd: Spring Boot, Java und MySQL bilden das Model und den Controller und stellen die Daten für das FrontEnd bereit.
 
-## Tech Stacks
+## Software Tools/Plattform/Technik/Libraries
 Genutzte Tech Stacks:
 
 ### BackEnd
 
 - Spring Boot
 - Java
+- JUnit
 - MySQL
 - Postman
 - TablePlus
 - IntelliJ IDEA
 - Git
 - Github
+- Github Actions
 - Docker
 
 ### FrontEnd
@@ -234,3 +261,61 @@ Genutzte Tech Stacks:
 - Spring Boot (BackEnd als REST API)
 - Git
 - Github
+
+## Datenbank und Design
+
+### Struktur
+Die Datenbank für "Corgi Shop" wurde mit MySQL implementiert. Die Haupttabellen umfassen:
+
+Users: Enthält Informationen zu den Nutzern (ID, Name, E-Mail, Passwort, etc.)
+Corgis: Enthält Informatoonen zu den Corgis (ID, Name, Preis, Lagerbestand etc.)
+Items: Speichert Produktinformationen (ID, Name, Beschreibung, Preis, Lagerbestand, etc.)
+Cart: Verfolgt die Artikel im Warenkorb der Benutzer (ID, Benutzer-ID, Produkt-ID, Menge, etc.)
+
+### Design
+Das Datenbankdesign folgt dem Prinzip der Normalisierung bis zur dritten Normalform (3NF), um Redundanz zu minimieren und Datenkonsistenz zu gewährleisten.
+
+ER-Diagramm
+Das Entity-Relationship-Diagramm (ERD) zeigt die Beziehungen zwischen den verschiedenen Entitäten der Datenbank. Die Hauptbeziehungen sind:
+Ein Benutzer kann mehrere Bestellungen haben.
+Ein Produkt kann in mehreren Bestellungen enthalten sein.
+Ein Benutzer kann mehrere Produkte in seinem Warenkorb haben.
+
+## Testing
+
+### Unit Testing
+Für das Unit Testing wurde JUnit verwendet. Alle kritischen Funktionalitäten im Backend wurden durch Unit Tests abgedeckt, um sicherzustellen, dass jede einzelne Komponente wie erwartet funktioniert.
+
+### Integration Testing
+Integrationstests wurden durchgeführt, um sicherzustellen, dass verschiedene Bestandteile des Systems nahtlos zusammenarbeiten. Postman wurde verwendet, um API-Endpunkte zu testen und sicherzustellen, dass sie korrekt funktionieren.
+
+### End-to-End Testing
+End-to-End-Tests wurden mit Postman durchgeführt, um den gesamten Workflow vom Frontend bis zum Backend zu überprüfen. Diese Tests stellten sicher, dass Benutzeraktionen ordnungsgemäß verarbeitet und in der Datenbank korrekt gespeichert wurden.
+
+## Metriken
+
+### Code Coverage
+Die Code Coverage wurde mithilfe von JaCoCo gemessen, um sicherzustellen, dass mindestens 80% des Codes durch Tests abgedeckt sind.
+
+### Performance Metrics
+Die Performance der Anwendung wurde mit JMeter getestet. Die Hauptkennzahlen umfassen:
+
+Durchschnittliche Antwortzeit: Zeit, die das System benötigt, um auf eine Anfrage zu antworten.
+Durchsatz: Anzahl der Anfragen, die das System pro Sekunde verarbeiten kann.
+Fehlerrate: Prozentsatz der fehlgeschlagenen Anfragen im Vergleich zur Gesamtzahl der Anfragen.
+
+## CI/CD
+
+### Continuous Integration (CI)
+Die Continuous Integration wurde mit GitHub Actions implementiert. Bei jedem Pull Request werden automatisch Build- und Testprozesse gestartet. Dies gewährleistet, dass neue Änderungen keine bestehenden Funktionalitäten brechen.
+
+### Continuous Deployment (CD)
+Das Continuous Deployment wird ebenfalls mit GitHub Actions durchgeführt. Nach erfolgreichem Durchlaufen der CI-Pipeline wird der Code automatisch in die Produktionsumgebung bereitgestellt. Docker wird verwendet, um die Anwendung in Container zu verpacken und zu deployen.
+
+### CI/CD Pipeline
+Die CI/CD-Pipeline umfasst folgende Schritte:
+
+Code-Checkout: Abrufen des neuesten Codes aus dem Git-Repository.
+Build: Kompilieren und Erstellen der Anwendung.
+Test: Ausführen aller Unit-, Integrations- und End-to-End-Tests.
+Deploy: Bereitstellen der Anwendung in der Produktionsumgebung.
