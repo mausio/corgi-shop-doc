@@ -21,7 +21,7 @@ Als Projektname wurde "Corgi Shop" gewählt.
 Das Projektteam besteht aus folgenden Mitgliedern:
 
 - Mael Dossoh: BackEnd, Testen, CI/CD, Dokumentation
-- Niklas Krauth: BackEnd, Datenbank, Migration
+- Niklas Krauth: BackEnd, Datenbank, Dokumentation
 - Robin Schwenzfeier: FrontEnd, Teamleiter
 
 ### Commits
@@ -243,7 +243,7 @@ Genutzte Tech Stacks:
 - Spring Boot
 - Java
 - JUnit
-- MySQL
+- PostgreSQL
 - Postman
 - TablePlus
 - IntelliJ IDEA
@@ -264,11 +264,11 @@ Genutzte Tech Stacks:
 ## Datenbank und Design - [Zum Blogeintrag](https://github.com/mausio/corgi-shop-doc/discussions/6)
 
 ### Struktur
-Die Datenbank für "Corgi Shop" wurde mit MySQL implementiert. Die Haupttabellen umfassen:
+Die Datenbank für "Corgi Shop" wurde mit PostgreSQL implementiert. Die Haupttabellen umfassen:
 
 Users: Enthält Informationen zu den Nutzern (ID, Name, E-Mail, Passwort, etc.)
-Corgis: Enthält Informatoonen zu den Corgis (ID, Name, Preis, Lagerbestand etc.)
-Items: Speichert Produktinformationen (ID, Name, Beschreibung, Preis, Lagerbestand, etc.)
+Corgis: Enthält Informatoonen zu den Corgis (ID, Name, Preis, etc.)
+Items: Speichert Produktinformationen (ID, Name, Beschreibung, Preis, etc.)
 Cart: Verfolgt die Artikel im Warenkorb der Benutzer (ID, Benutzer-ID, Produkt-ID, Menge, etc.)
 
 ### Design
