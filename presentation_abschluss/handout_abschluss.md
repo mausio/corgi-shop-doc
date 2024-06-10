@@ -266,12 +266,12 @@ Genutzte Tech Stacks:
 ### Struktur
 Die Datenbank für "Corgi Shop" wurde mit PostgreSQL implementiert. Die Haupttabellen umfassen:
 
-Users: Enthält Informationen zu den Nutzern (ID, Name, E-Mail, Passwort, etc.)
-Corgis: Enthält Informatoonen zu den Corgis (ID, Name, Preis, etc.)
-Items: Speichert Produktinformationen (ID, Name, Beschreibung, Preis, etc.)
-Cart: Verfolgt die Artikel im Warenkorb der Benutzer (ID, Benutzer-ID, Produkt-ID, Menge, etc.)
+- Users: Enthält Informationen zu den Nutzern (ID, Name, E-Mail, Passwort, etc.)
+- Corgis: Enthält Informatoonen zu den Corgis (ID, Name, Preis, etc.)
+- Items: Speichert Produktinformationen (ID, Name, Beschreibung, Preis, etc.)
+- Cart: Verfolgt die Artikel im Warenkorb der Benutzer (ID, Benutzer-ID, Produkt-ID, Menge, etc.)
 
-### Design
+### 1Design
 Das Datenbankdesign folgt dem Prinzip der Normalisierung bis zur dritten Normalform (3NF), um Redundanz zu minimieren und Datenkonsistenz zu gewährleisten.
 
 ER-Diagramm
