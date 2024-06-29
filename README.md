@@ -13,7 +13,7 @@
     6. [Softwaremetriken](#softwaremetriken)
     7. [CI/CD Setup](#cicd-setup)
     8. [Risk Management Table (RMMM)](#risk-management-table-rmmm)
-    9. [Links](#links)
+    9. [Links](#weitere-links)
 4. [Projektretrospektive](#4-projektretrospektive)
 
 ## 1. Vision
@@ -55,13 +55,15 @@ Das [CI/CD Setup](https://github.com/mausio/corgi-shop-doc/discussions/18) besch
 ### Risk Management Table (RMMM)
 Der [Risk Management Table](https://github.com/mausio/corgi-shop-doc/blob/main/rmmm/RMMM_Tabelle.md) enthält die aktualisierte Risikobewertung des Projekts.
 
-### Links
+### Weitere Links
 - [Jira](https://corgi-shop.atlassian.net/jira/software/projects/SCRUM/boards/1/backlog)
 - [Dokumentations-Repo](https://github.com/mausio/corgi-shop-doc)
 - [Corgi-Shop Frontend](https://github.com/mausio/corgi-shop-front-end)
 - [Corgi-Shop Backend](https://github.com/mausio/corgi-shop-back-end)
 
 ## 4. Projektretrospektive
+
+Die [Projektretrospektive](https://github.com/mausio/corgi-shop-doc/blob/main/retrospektive.png) ist ein Fazit über Lehren die aus dem Projekt gezogen wurden.
 
 ### Was lief gut?
 - Entwicklung im Backend
